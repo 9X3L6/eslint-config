@@ -1,12 +1,12 @@
 const fs = require('node:fs')
 const { join } = require('node:path')
-const basic = require('@antfu/eslint-config-basic')
+const basic = require('@9x3l6/eslint-config-basic')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
 module.exports = {
   extends: [
-    '@antfu/eslint-config-basic',
+    '@9x3l6/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -155,11 +155,11 @@ module.exports = {
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
-    // antfu
-    'antfu/generic-spacing': 'error',
-    'antfu/no-cjs-exports': 'error',
-    'antfu/no-ts-export-equal': 'error',
-    'antfu/no-const-enum': 'error',
+    // 9x3l6
+    '9x3l6/generic-spacing': 'error',
+    '9x3l6/no-cjs-exports': 'error',
+    '9x3l6/no-ts-export-equal': 'error',
+    '9x3l6/no-const-enum': 'error',
 
     // off
     '@typescript-eslint/consistent-indexed-object-style': 'off',

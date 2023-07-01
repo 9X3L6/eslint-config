@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    '9x3l6',
     'no-only-tests',
     'unused-imports',
   ],
@@ -202,8 +202,8 @@ module.exports = {
         'no-undef': 'off',
         'no-unused-expressions': 'off',
         'no-unused-vars': 'off',
-        'antfu/no-cjs-exports': 'off',
-        'antfu/no-ts-export-equal': 'off',
+        '9x3l6/no-cjs-exports': 'off',
+        '9x3l6/no-ts-export-equal': 'off',
       },
     },
   ],
@@ -390,10 +390,10 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
-    'antfu/top-level-function': 'error',
-    // 'antfu/prefer-inline-type-import': 'error',
+    // 9x3l6
+    '9x3l6/if-newline': 'error',
+    '9x3l6/import-dedupe': 'error',
+    '9x3l6/top-level-function': 'error',
+    // '9x3l6/prefer-inline-type-import': 'error',
   },
 }

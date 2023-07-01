@@ -1,8 +1,8 @@
 {
-  "name": "eslint-plugin-antfu",
+  "name": "eslint-plugin-9x3l6",
   "version": "0.39.6",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/9x3l6/eslint-config",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,11 +16,11 @@
     "prepublishOnly": "nr build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.59.7"
+    "@typescript-eslint/utils": "^5.60.1"
   },
   "devDependencies": {
-    "@types/node": "^20.2.3",
+    "@types/node": "^20.3.3",
     "unbuild": "^1.2.1",
-    "vitest": "^0.31.1"
+    "vitest": "^0.31.4"
   }
 }

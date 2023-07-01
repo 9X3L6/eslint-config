@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-ts",
+  "name": "@9x3l6/eslint-config-ts",
   "version": "0.39.6",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Alex Goretoy <alex@goretoy.com> (https://github.com/9x3l6/)",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/9x3l6/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -17,12 +17,12 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.59.7",
-    "@typescript-eslint/parser": "^5.59.7",
-    "eslint-plugin-jest": "^27.2.1"
+    "@9x3l6/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint-plugin-jest": "^27.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.41.0"
+    "eslint": "^8.44.0"
   }
 }

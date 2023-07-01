@@ -1,9 +1,9 @@
 {
-  "name": "@antfu/eslint-config-monorepo",
+  "name": "@9x3l6/eslint-config-monorepo",
   "version": "0.39.6",
   "private": true,
   "packageManager": "pnpm@8.5.1",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Alex Goretoy <alex@goretoy.com> (https://github.com/9x3l6/)",
   "license": "MIT",
   "scripts": {
     "lint": "pnpm -r run stub && eslint .",
@@ -13,11 +13,11 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "workspace:*",
-    "bumpp": "^9.1.0",
-    "eslint": "^8.41.0",
-    "eslint-plugin-antfu": "link:./packages/eslint-plugin-antfu",
+    "@9x3l6/eslint-config": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-9x3l6": "link:packages/eslint-plugin-9x3l6",
     "rimraf": "^5.0.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.6"
   }
 }

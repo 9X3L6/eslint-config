@@ -1,3 +1,14 @@
 {
-  "extends": "@antfu"
+  "extends": "@9x3l6",
+  "rules": {
+    "vue/prefer-separate-static-class": "off",
+    "vue/html-self-closing": "off",
+    "vue/html-end-tags": "off",
+    "vue/html-indent": "off",
+
+    "9x3l6/if-newline": "off",
+
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/semi": "off"
+  }
 }

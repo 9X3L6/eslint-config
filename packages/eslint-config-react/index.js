@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    '@antfu/eslint-config-ts',
+    '@9x3l6/eslint-config-ts',
   ],
   settings: {
     react: {

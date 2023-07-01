@@ -1,0 +1,6 @@
+{
+  "extends": "@9x3l6",
+  "plugins": [
+    "9x3l6"
+  ]
+}
