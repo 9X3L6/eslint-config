@@ -165,6 +165,7 @@ Or you can always fork this repo and make your own.
 ### Update
 
 ```bash
+npm i -g @antfu/ni
 pnpm -r update
 ```
 

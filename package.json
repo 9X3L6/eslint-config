@@ -16,7 +16,7 @@
     "@9x3l6/eslint-config": "workspace:*",
     "bumpp": "^9.1.1",
     "eslint": "^8.44.0",
-    "eslint-plugin-9x3l6": "link:packages/eslint-plugin-9x3l6",
+    "eslint-plugin-9x3l6": "file:./packages/eslint-plugin-9x3l6",
     "rimraf": "^5.0.1",
     "typescript": "^5.1.6"
   }
